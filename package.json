@@ -1,0 +1,21 @@
+{
+  "name": "translate",
+  "version": "1.0.0",
+  "main": "./bin/index.js",
+  "description": "A cli for translating language",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "translate": "./bin/index.js"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.0.0",
+    "axios": "^1.2.1",
+    "commander": "^9.4.1",
+    "google-translate-api": "^2.3.0"
+  },
+  "author": "prantadas"
+}
